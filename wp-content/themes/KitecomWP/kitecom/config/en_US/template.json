@@ -1,0 +1,18 @@
+{
+	"template": {
+		"name": "KitecomWP",
+		"update_name": "gk_meetkitecom_wp",
+		"date": "22/04/2016",
+		"version": "1.16",
+		"description": "Wordpress theme based on the KitecomWP framework"
+	},
+	"developer_config": {
+		"visibility": {
+			"template_options": true,
+			"importexport": false,
+			"updates": false,
+			"documentation": false,
+			"gavickpro_website": false
+		}
+	}
+}

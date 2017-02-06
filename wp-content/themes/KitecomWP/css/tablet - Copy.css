@@ -1,0 +1,415 @@
+/**
+ *
+ * -------------------------------------------
+ * Tablet CSS file
+ * -------------------------------------------
+ *
+ **/
+
+/*
+ *
+ * 10. Tablet code
+ *
+ *
+------------------------------------ */
+
+/* 10.1. Base elements
+==================================== */
+#gk-head {
+	/* height: 210px; */
+}
+#gk-header img {
+	/*height: 180px!important;
+	width: auto!important;*/
+	margin-top: 0px;
+	margin-bottom: -20px;
+}
+
+#gk-head + div {
+    margin-top: 140px;
+    /* min-height: 140px; */
+}
+
+.gk-page {
+	width: 96%!important;
+}
+div.rightlogo {
+	display: none;
+}
+.logo a {margin: 20px;}
+
+
+/* sidebar */
+#gk-mainbody-columns {
+	display: block;
+}
+
+#gk-mainbody-columns > section,
+#gk-mainbody-columns > aside {
+	display: block;
+	overflow: hidden;
+	width: 100%!important;
+}
+
+/* Archive page */
+.archivepage .widget.first {
+	margin-right: 2%;
+	margin-left: 0!important;
+}
+
+.archivepage .widget.first,
+.archivepage .widget.first + .widget {
+	margin-right: 0;
+	margin-left: 2%;
+	width: 48%;
+}
+
+.archivepage .widget.last {
+	margin: 0;
+	width: 100%;
+}
+
+/* images fix */
+#gk-mainbody img {
+	height: auto!important;
+	max-width: 100%!important;
+}
+
+/* column rules */
+#gk-sidebar .box {
+	float: left!important;
+	width: 50%!important;
+}
+
+.widget-area .col1 { width: 100%; }
+.widget-area .col2 { width: 50%; }
+.widget-area .col3 { width: 33.3%; }
+.widget-area .col4 { width: 50%; }
+.widget-area .col5 { width: 33.3%; }
+.widget-area .col6 { width: 33.3%; }
+
+.widget-area .box.last1 { width: 100%; }
+.widget-area .box.last2 { width: 50%; }
+.widget-area .box.last3 { width: 33.3%; }
+.widget-area .box.last4 { width: 50%; }
+.widget-area .box.last5 { width: 33.3%; }
+
+.widget-area .nth1 {
+	clear: both;
+}
+
+.widget-area .col6.last5.nth4,
+.widget-area .col6.last5.nth5 {
+	width: 50%;
+}
+
+/* 10.2. Header elements
+==================================== */
+
+
+/* 10.3. Other elements
+==================================== */
+
+
+
+.gk-columns > div {
+	padding: 0 6px;
+}
+
+/* 10.4. Main menu elements
+==================================== */
+
+#gk-mainmenu-toggle {
+	background: transparent url("../images/mobile_menu_btn.png") no-repeat 0 0;
+	display: block;
+	float: right;
+	height: 30px;
+	margin-top: 20px;
+	text-indent: -9999px;
+	width: 30px;
+	position: relative;
+	right: 20px;
+}
+
+#gk-mainmenu-collapse {
+	clear: both;
+	margin-bottom: 60px;
+	position: relative;
+}
+
+#gk-mainmenu-collapse.menu-hidden {
+	height: 0px!important;
+	overflow: hidden!important;
+}
+
+#gk-mainmenu-collapse.menu-hide {
+	overflow: hidden!important;
+	display: none;
+}
+
+#gk-mainmenu-collapse.menu-visible {
+	min-height: 167px!important;
+	top: 81px;
+	display: block;
+}
+
+#main-menu {
+	border: 1px solid #e5e5e5;
+	background: #fff;
+}
+
+#main-menu ul,
+#main-menu ul ul,
+#main-menu ul ul ul,
+#main-menu .sub-menu {
+	border: none!important;
+	-webkit-box-shadow: none!important;
+	-moz-box-shadow: none!important;
+	-ms-box-shadow: none!important;
+	-o-box-shadow: none!important;
+	box-shadow: none!important;
+	-webkit-box-sizing: border-box!important;
+	-moz-box-sizing: border-box!important;
+	-ms-box-sizing: border-box!important;
+	-o-box-sizing: border-box!important;
+	box-sizing: border-box!important;
+	display: block!important;
+	float: none!important;
+	height: auto!important;
+	margin: 0!important;
+	opacity: 1.0!important;
+	position: static!important;
+	visibility: visible!important;
+	width: 100%!important;
+}
+
+#main-menu .sub-menu:before {
+	display: none!important;
+}
+
+#main-menu li {
+	border: none!important;
+	display: block;
+	float: none!important;
+	min-height: 28px!important;
+	line-height: 28px!important;
+	width: 95%;
+	padding: 0;
+	position: relative;
+}
+
+#main-menu li a {
+	border-top: 1px solid #e5e5e5!important;
+	display: block!important;
+	font-size: 13px!important;
+	height: 28px!important;
+	line-height: 28px!important;
+	padding: 0 0 0 15px!important;
+	-webkit-transition: background-color .3s ease-out;
+	-moz-transition: background-color .3s ease-out;
+	-ms-transition: background-color .3s ease-out;
+	-o-transition: background-color .3s ease-out;
+	transition: background-color .3s ease-out;
+}
+
+#main-menu > li:first-child > a {
+	border-top: none!important;
+}
+
+#main-menu li li a {
+	font-size: 12px!important;
+	padding: 0 0 0 30px!important;
+}
+
+#main-menu li li li a {
+	font-size: 11px!important;
+	padding: 0 0 0 45px!important;
+}
+
+#main-menu li a:hover,
+#main-menu .sub-menu li a:hover  {
+	background: #f9f9f9!important;
+	color: #5990de!important;
+}
+
+#main-menu .sub-menu li {
+	border-top: none!important;
+}
+
+#main-menu > li.haschild:after,
+#main-menu > li li.haschild:after {
+	display: none!important;
+}
+
+
+
+/* 10.6. Device classes
+==================================== */
+
+.onlyDesktop {
+	display: none!important;
+}
+
+.onlyTablets {
+	display: block!important;
+}
+
+.onlySmartphones {
+	display: none!important;
+}
+
+.onlyTabltetsAndSmartphones {
+	display: block!important;
+}
+
+/* 10.7. Responsive tables
+==================================== */
+
+@media (max-width: 600px) {
+	article section table {
+		border: 1px solid #eee;
+		border-bottom: none;
+		max-width: 100%!important;
+		width: 100%!important;
+	}
+
+	article section table thead {
+		display: none;
+	}
+
+	article section table td {
+		border-top: 1px solid #eee;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		clear: both;
+		display: block;
+		float: right;
+		padding: 5px 0 5px 50%;
+		position: relative;
+		width: 100%;
+	}
+
+	article section table td:first-child {
+		border-top: none;
+	}
+
+	article section table tbody tr {
+		border-bottom: 2px solid #eee;
+	}
+
+	article section table td span.gk-table-label {
+		display: block;
+		font-size: 95%;
+		font-weight: bold;
+		left: 5px;
+		position: absolute;
+	}
+}
+
+
+
+.nav_bar {
+	float: left;
+	width: 100%;
+	position: relative;
+	height: 0px;
+}
+#gk-mainmenu-toggle {
+	top: 20px;
+	position: fixed;
+}
+#main-menu {
+	float: right;
+	box-shadow: 5px 5px 5px #ccc;
+	position: absolute;
+	margin: 0;
+}
+#main-menu li a {
+	padding: 5px!important
+}
+#main-menu ul li a {
+	padding: 5px 0 5px 20px
+}
+#main-menu > li.active > a,
+#main-menu > li.current-menu-item > a,
+#main-menu > li.current_page_item > a,
+#main-menu > li.current-menu-ancestor > a,
+#main-menu > li.current-menu-parent > a,
+#main-menu > li > a:hover {
+	border-bottom: 0px;
+}
+li.awardlink {
+}
+
+.logo {
+	width: 250px!important;
+	/* height: auto!important; */
+	margin: 10px 0 0 10px!important;
+	/* background: url(../images/logo_small.png) no-repeat 0 0!important; */
+	position: fixed;
+}
+.top_bar .box.socials {
+	width: 30%;
+	float: right;
+	margin: 0px 60px 10px 0;
+}
+.box.welcome, .box.about{
+	padding: 0 0 0 20px!important;
+}
+.box.welcome .img, .box.about .img {
+	max-width: 50%!important;
+}
+
+#bottom1 .gk-page > .box:nth-of-type(3) {
+	margin: 0 10px 0 0;
+}
+#gk-footer .fmenu {
+	width: 40%;
+}
+#gk-footer .fmenu ul li {
+    display: block;
+    float: left;
+    margin: 0px 10px 0px 0;
+}
+#gk-footer .bottom_socials {
+	width: 20%;
+}
+.rangemenu article {
+	min-height: 300px!important;
+}
+#gk-header .box.bang {
+	min-height: auto;
+}
+#gk-header .box.widget_text {
+	min-height: 110px!important;
+}
+#panel.four .wp-posts-carousel-image,
+#panel.four .wp-posts-carousel-image img {
+	width: 300px!important;
+	height: 300px!important;
+	border-radius: 150px!important;
+}
+#panel.four .wp-posts-carousel-details {
+	width: 390px!important;
+}
+#panel:nth-of-type(1) ul.also {
+	width: 100%;
+	float: left;
+	display: block;
+	margin: 0;
+	column-count: 2;
+	column-gap: 10px;
+}
+#panel:nth-of-type(1) .home-img1 {
+	float: left;
+	width:100%;
+}
+#panel:nth-of-type(1) .home-img1 {
+	text-align: center;
+}
+.form-group.about div,
+.form-group.cv div{
+	width: 69%;
+	margin: 2px 0!important;
+}

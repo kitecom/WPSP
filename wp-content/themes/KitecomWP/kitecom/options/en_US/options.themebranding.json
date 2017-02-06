@@ -1,0 +1,25 @@
+[
+	{
+		"groupname": "Theme branding",
+		"groupdesc": "You can configure here options connected with theme branding.",
+		"fields": [
+			{
+				"name": "template_footer_content",
+				"type": "Textarea",
+				"label": "Footer content",
+				"tooltip": "Specify the content of the theme footer.",
+				"default": "",
+				"class": "",
+				"visibility": ""
+			},
+			{
+				"name": "branding_favicon",
+				"type": "Media",
+				"label": "Page favicon",
+				"tooltip": "Select the favicon for your page (it must be a proper *.ICO file with size 16x16px.",
+				"default": "",
+				"class": ""
+			}
+		]
+	}
+]

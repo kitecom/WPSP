@@ -45,3 +45,11 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+#WP stuff
+wp-config.php
+# exclude everything
+wp-snapshots/*
+
+# exception to the rule
+!wp-snapshots/.gitdummy 

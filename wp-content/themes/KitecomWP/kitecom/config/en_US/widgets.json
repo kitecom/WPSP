@@ -1,0 +1,49 @@
+[	
+	{
+		"name": "Menu",
+		"id": "menu-holder",
+		"description": "Placeholder for main menu - DO NOT EDIT",
+		"before_widget": "",
+		"after_widget": "",
+		"before_title": "",
+		"after_title": ""
+	},
+	{
+		"name": "Header (Images)",
+		"id": "header",
+		"description": "Page header images",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\"><div>",
+		"after_widget": "</div></div>",
+		"before_title": "",
+		"after_title": ""
+	},
+	{
+		"name": "Top (Intros)",
+		"id": "top",
+		"description": "Page text intros ",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\"><div>",
+		"after_widget": "</div></div>",
+		"before_title": "<h3 class=\"box-title\">",
+		"after_title": "</h3>",
+		"amount": "4"
+	},
+	{
+		"name": "Mainbody (Homepage Only)",
+		"id": "mainbody",
+		"description": "Home Sections",
+		"before_widget": "<div id=\"panel\" class=\"box %2$s\"><div class=\"gk-page\"><a id=\"panellink\"></a>",
+		"after_widget": "</div></div>",
+		"before_title": "<h3 class=\"box-title\">",
+		"after_title": "</h3>"
+	},
+	{
+		"name": "Footer",
+		"id": "bottom2",
+		"description": "Footer area",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\"><div>",
+		"after_widget": "</div></div>",
+		"before_title": "<h3 class=\"box-title\">",
+		"after_title": "</h3>",
+		"amount": "6"
+	}
+]

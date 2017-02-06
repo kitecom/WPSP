@@ -1,0 +1,31 @@
+/**
+ *
+ * Styles for the metaboxes
+ *
+ **/
+ 
+#kitecom-post-params p[data-template] {
+	display: none;
+}
+
+#kitecom-post-params p[data-template].active {
+	display: block;
+}
+
+#kitecom-post-params p label {
+	line-height: 24px;
+}
+
+#kitecom-post-params p select {
+	float: right;
+}
+
+#kitecom-post-params p {
+	border-top: 1px solid #dfdfdf;
+	margin: 0;
+	padding: 10px 0;
+}
+
+#kitecom-post-params p:nth-of-type(1) {
+	border-top: none;
+}

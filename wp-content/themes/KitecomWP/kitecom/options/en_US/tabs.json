@@ -1,0 +1,14 @@
+[
+	["Basic", 				"options.basic",					"enabled"],
+	["Layout",	 			"options.layout",					"enabled"],
+	["Pages",	 			"options.pages",					"enabled"],
+	["Features",	 		"options.features",					"enabled"],
+	["Fonts", 				"options.fonts",					"enabled"],
+	["Navigation", 			"options.navigation",				"enabled"],
+	["Advanced", 			"options.advanced",					"enabled"],
+	["Shortcodes", 			"options.shortcodes",				"disabled"],
+	["Social API", 			"options.socialapi",				"disabled"],
+	["Theme Branding", 		"options.themebranding",			"disabled"],
+	["Back-End Branding", 	"options.backendbranding",			"disabled"],
+	["SEO", 				"options.seo",						"enabled"]
+]

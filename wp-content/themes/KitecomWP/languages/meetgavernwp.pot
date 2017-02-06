@@ -1,0 +1,1375 @@
+# Translation of the WordPress theme Meet KitecomWP by the GavickPro team.
+# Copyright (C) GavickPro 2012
+# This file is distributed under the same license as the PACKAGE package.
+# GavickPro <info@gavick.com>, 2012.
+#
+#, fuzzy
+msgid   ""
+msgstr  ""
+"Project-Id-Version: KitecomWP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-02 10:14+0200\n"
+"PO-Revision-Date: 2015-08-20 12:03+1100\n"
+"Last-Translator: GavickPro <info@gavick.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+
+#: comments.php:29
+#, php-format
+msgid   "%1$s Comments"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.fragments.php:110
+#, php-format
+msgid   "%1$s at %2$s"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.fragments.php:101
+#, php-format
+msgid   "%1$s on %2$s"
+msgstr  ""
+
+#: kitecom/filters.php:276
+msgid   "&laquo; Back"
+msgstr  ""
+
+#: comments.php:37 comments.php:54
+msgid   "&larr; Older Comments"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.fragments.php:367
+msgid   "&larr; Older posts"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.fragments.php:216
+#: kitecom/helpers/helpers.layout.fragments.php:270
+msgid   ", "
+msgstr  ""
+
+#: comments.php:25
+msgid   "1 Comment"
+msgstr  ""
+
+#: kitecom/options.importexport.php:55
+msgid   "1. Click \"Browse\" button and choose a backup file that you backup "
+        "before."
+msgstr  ""
+
+#: comments.php:27
+msgid   "2 Comments"
+msgstr  ""
+
+#: kitecom/options.importexport.php:56
+msgid   "2. Click \"Restore Template Settings\" button to restore your "
+        "template settings."
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:514
+msgid   "404 page"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.php:1006
+msgid   "< Prev"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.fragments.php:292
+msgid   "<b>%</b> Replies"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.fragments.php:291
+msgid   "<b>1</b> Reply"
+msgstr  ""
+
+#: attachment.php:29
+#, php-format
+msgid   "<span>&larr;</span> %s"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:542
+msgid   "ASC"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:526
+msgid   "Add page"
+msgstr  ""
+
+#: kitecom/form_elements/Fonts/fonts.php:60
+msgid   "Adobe Edge Fonts"
+msgstr  ""
+
+#: kitecom/form_elements/Fonts/fonts.php:133
+msgid   "Adobe Edge Fonts URL: "
+msgstr  ""
+
+#: kitecom/options.importexport.php:73
+msgid   "After exporting, you can either use the backup file to restore your "
+        "template settings on this site again or another Wordpress site when "
+        "using same Gavern template."
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:673
+msgid   "All devices"
+msgstr  ""
+
+#: kitecom/form_elements/Menu/menu.php:80
+msgid   "All levels"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:494
+msgid   "All pages"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:495
+msgid   "All pages except:"
+msgstr  ""
+
+#: kitecom/options.importexport.php:48
+msgid   "All template options are restored successfully."
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:689
+msgid   "All users"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:985 kitecom/widgets.nsp.php:988
+msgid   "An error occured during creating the thumbnail."
+msgstr  ""
+
+#: kitecom/form_elements/Menu/menu.php:93
+msgid   "Animation for "
+msgstr  ""
+
+#: kitecom/widgets.tabs.php:261
+msgid   "Animation interval (ms):"
+msgstr  ""
+
+#: kitecom/widgets.tabs.php:256
+msgid   "Animation speed (ms):"
+msgstr  ""
+
+#: kitecom/form_elements/Menu/menu.php:109
+msgid   "Animation speed for "
+msgstr  ""
+
+#: category.php:48 index.php:43 author.php:45 template.latest.php:38
+#: tag.php:45 archive.php:43
+msgid   "Apologies, but no results were found for the requested archive. "
+        "Perhaps searching will help find a related post."
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:508
+msgid   "Archive"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.php:495
+msgid   "Archives"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:591 kitecom/widgets.nsp.php:607
+msgid   "Arrows"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:648
+msgid   "Article format"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:584
+msgid   "Article pagination:"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:563
+msgid   "Articles amount"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.fragments.php:308
+msgid   "Attachment size:"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:509
+msgid   "Author"
+msgstr  ""
+
+#: author.php:22
+#, php-format
+msgid   "Author archives: %s %s"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.fragments.php:276
+#: kitecom/helpers/helpers.features.php:521
+msgid   "Author:"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.fragments.php:542
+#, php-format
+msgid   "Author: %s "
+msgstr  ""
+
+#: kitecom/widgets.tabs.php:243
+msgid   "Auto animation:"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:635
+msgid   "Auto-animation stops on hover:"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:618
+msgid   "Auto-animation:"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:615
+msgid   "Autoanimation settings"
+msgstr  ""
+
+#: kitecom/widgets.comments.php:201
+msgid   "Avatar size:"
+msgstr  ""
+
+#: template.contact.php:186
+msgid   "Back to the homepage"
+msgstr  ""
+
+#: layouts/footer.php:23
+msgid   "Back to top"
+msgstr  ""
+
+#: kitecom/options.importexport.php:77
+msgid   "Backup Template Settings"
+msgstr  ""
+
+#: kitecom/layouts/template.php:28 kitecom/options.importexport.php:29
+msgid   "Based on the Gavern WP framework"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:482
+msgid   "Basic settings"
+msgstr  ""
+
+#: archive.php:25
+msgid   "Blog Archives"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:557
+msgid   "Blog ID (leave blank for current blog): "
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:594 kitecom/widgets.nsp.php:610
+msgid   "Both"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:898
+msgid   "Cache settings"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:901
+msgid   "Cache time (min):"
+msgstr  ""
+
+#: template.archive.php:40
+msgid   "Categories"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:499
+msgid   "Categories slugs"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:505
+msgid   "Category"
+msgstr  ""
+
+#: category.php:21
+#, php-format
+msgid   "Category Archives: %s"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:518
+msgid   "Category ID/Name/slug:"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:519
+msgid   "Category ID:"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:506
+msgid   "Category with descendants"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.fragments.php:267
+msgid   "Category:"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:674 kitecom/widgets.nsp.php:712
+#: kitecom/widgets.nsp.php:864 kitecom/widgets.nsp.php:890
+msgid   "Chars"
+msgstr  ""
+
+#: kitecom/widgets.tabs.php:234
+msgid   "Click"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.php:1009
+msgid   "Close"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:1041
+msgid   "Comments "
+msgstr  ""
+
+#: comments.php:68
+msgid   "Comments are closed."
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.fragments.php:285
+msgid   "Comments:"
+msgstr  ""
+
+#: kitecom/form_elements/Menu/menu.php:59 kitecom/form_elements/Menu/menu.php:66
+msgid   "Conditional rule"
+msgstr  ""
+
+#: content-audio.php:28 content-status.php:29 content-aside.php:29
+#: content-video.php:28 content-chat.php:28 content-gallery.php:30
+#: content-gallery.php:58 content-quote.php:29 content-link.php:27
+#: content-image.php:28
+msgid   "Continue reading &rarr;"
+msgstr  ""
+
+#: attachment.php:72 content.php:26
+msgid   "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:663
+msgid   "Custom CSS class"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:670
+msgid   "Custom CSS class: "
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:508
+msgid   "Custom post types"
+msgstr  ""
+
+#: kitecom/layouts/template.php:30
+msgid   "Customize theme"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:545
+msgid   "DESC"
+msgstr  ""
+
+#: archive.php:19
+#, php-format
+msgid   "Daily Archives: %s"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:489
+msgid   "Data source settings"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:492
+msgid   "Data source:"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:524
+msgid   "Date"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:814
+msgid   "Date format:"
+msgstr  ""
+
+#: kitecom/form_elements/Menu/menu.php:75
+msgid   "Depth of "
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:73
+msgid   "Description:"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:674
+msgid   "Desktop"
+msgstr  ""
+
+#: kitecom/widgets.tabs.php:250 kitecom/helpers/helpers.features.php:106
+#: kitecom/helpers/helpers.features.php:114
+#: kitecom/helpers/helpers.features.php:122
+#: kitecom/helpers/helpers.features.php:129
+#: kitecom/helpers/helpers.features.php:136
+#: kitecom/helpers/helpers.features.php:143
+#: kitecom/helpers/helpers.features.php:150
+#: kitecom/helpers/helpers.features.php:157
+#: kitecom/helpers/helpers.features.php:165
+#: kitecom/helpers/helpers.features.php:172
+#: kitecom/helpers/helpers.features.php:179
+#: kitecom/form_elements/Menu/menu.php:58 kitecom/form_elements/standard.php:237
+msgid   "Disabled"
+msgstr  ""
+
+#: kitecom/functions.php:98
+msgid   "Documentation"
+msgstr  ""
+
+#: template.contact.php:131
+msgid   "E-mail:"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.fragments.php:80
+#: kitecom/helpers/helpers.layout.fragments.php:117
+#: kitecom/helpers/helpers.layout.fragments.php:328
+msgid   "Edit"
+msgstr  ""
+
+#: template.contact.php:209
+msgid   "Email:"
+msgstr  ""
+
+#: kitecom/form_elements/Menu/menu.php:52
+msgid   "Enable"
+msgstr  ""
+
+#: kitecom/widgets.tabs.php:247 kitecom/helpers/helpers.features.php:105
+#: kitecom/helpers/helpers.features.php:113
+#: kitecom/helpers/helpers.features.php:121
+#: kitecom/helpers/helpers.features.php:128
+#: kitecom/helpers/helpers.features.php:135
+#: kitecom/helpers/helpers.features.php:142
+#: kitecom/helpers/helpers.features.php:149
+#: kitecom/helpers/helpers.features.php:156
+#: kitecom/helpers/helpers.features.php:164
+#: kitecom/helpers/helpers.features.php:171
+#: kitecom/helpers/helpers.features.php:178
+#: kitecom/form_elements/Menu/menu.php:57 kitecom/form_elements/standard.php:238
+msgid   "Enabled"
+msgstr  ""
+
+#: kitecom/form_elements/standard.php:274
+msgid   "Enter an URL or upload an image."
+msgstr  ""
+
+#: kitecom/options.importexport.php:70
+msgid   "Export Template Settings"
+msgstr  ""
+
+#: kitecom/widgets.social.php:142
+msgid   "Facebook link:"
+msgstr  ""
+
+#: kitecom/form_elements/Menu/menu.php:114
+msgid   "Fast animation (250ms)"
+msgstr  ""
+
+#: layouts/content.post.header.php:39
+msgid   "Featured"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:269
+#: kitecom/helpers/helpers.features.php:270
+msgid   "Featured Video"
+msgstr  ""
+
+#: kitecom/layouts/template.php:33
+msgid   "Follow us on the social media: "
+msgstr  ""
+
+#: kitecom/form_elements/Fonts/fonts.php:63
+msgid   "Font family: "
+msgstr  ""
+
+#: kitecom/form_elements/Fonts/fonts.php:58
+msgid   "Fonts Squirrel"
+msgstr  ""
+
+#: kitecom/form_elements/Fonts/fonts.php:104
+msgid   "Fonts Squirrel: "
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:808
+msgid   "Format:"
+msgstr  ""
+
+#: template.contact.php:111 template.contact.php:113 template.contact.php:115
+msgid   "From "
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.fragments.php:313
+#, php-format
+msgid   "Full size is %s pixels"
+msgstr  ""
+
+#: kitecom/widgets.comments.php:23
+msgid   "GK Comments"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:33
+msgid   "GK News Show Pro"
+msgstr  ""
+
+#: kitecom/widgets.social.php:23
+msgid   "GK Social Icons"
+msgstr  ""
+
+#: kitecom/widgets.tabs.php:23
+msgid   "GK Tabs"
+msgstr  ""
+
+#: kitecom/functions.php:109
+msgid   "GavickPro Website"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.fragments.php:566
+msgid   "Google Profile"
+msgstr  ""
+
+#: kitecom/filters.php:109
+msgid   "Google Profile URL"
+msgstr  ""
+
+#: kitecom/form_elements/Fonts/fonts.php:59
+msgid   "Google Web Fonts"
+msgstr  ""
+
+#: kitecom/form_elements/Fonts/fonts.php:119
+msgid   "Google Web Fonts URL: "
+msgstr  ""
+
+#: kitecom/widgets.social.php:152
+msgid   "Google+ link:"
+msgstr  ""
+
+#: kitecom/form_elements/Menu/menu.php:100
+msgid   "Height and Opacity"
+msgstr  ""
+
+#: template.login.php:32
+msgid   "Hi, "
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:502 kitecom/filters.php:309
+msgid   "Homepage"
+msgstr  ""
+
+#: kitecom/widgets.tabs.php:237
+msgid   "Hover"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:520
+msgid   "ID"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:733 kitecom/helpers/helpers.layout.php:1007
+msgid   "Image"
+msgstr  ""
+
+#: kitecom/options.importexport.php:31
+msgid   "Import Template Settings"
+msgstr  ""
+
+#: kitecom/functions.php:71
+msgid   "Import/Export"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:779
+msgid   "Info block"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:630
+msgid   "Interval (ms):"
+msgstr  ""
+
+#: kitecom/options.importexport.php:51
+msgid   "Invalid file or file size too big."
+msgstr  ""
+
+#: 404.php:18
+msgid   "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:76
+msgid   "Keywords:"
+msgstr  ""
+
+#: kitecom/widgets.comments.php:56
+msgid   "Latest Comments"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:496 template.archive.php:28
+msgid   "Latest posts"
+msgstr  ""
+
+#: kitecom/helpers/helpers.customizer.php:53
+msgid   "Layout"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.fragments.php:290
+msgid   "Leave a reply"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:774
+msgid   "Left"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:844
+msgid   "Link format"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.fragments.php:316
+msgid   "Link to full-size image"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:575
+msgid   "Links amount"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:600
+msgid   "Links pagination:"
+msgstr  ""
+
+#: template.login.php:48
+msgid   "Log In"
+msgstr  ""
+
+#: template.login.php:33 template.login.php:34
+msgid   "Logout"
+msgstr  ""
+
+#: template.login.php:63
+msgid   "Lost your password?"
+msgstr  ""
+
+#: layouts/header.php:108
+msgid   "Main menu"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:764
+msgid   "Margin:"
+msgstr  ""
+
+#: kitecom/helpers/helpers.shortcodes.php:569
+msgid   "Members only"
+msgstr  ""
+
+#: template.contact.php:120
+msgid   "Message from"
+msgstr  ""
+
+#: template.contact.php:137 template.contact.php:220
+msgid   "Message:"
+msgstr  ""
+
+#: kitecom/helpers/helpers.customizer.php:141
+msgid   "Mobile width"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:532
+msgid   "Modified"
+msgstr  ""
+
+#: template.archive.php:53
+msgid   "Monthly Archives"
+msgstr  ""
+
+#: archive.php:21
+#, php-format
+msgid   "Monthly Archives: %s"
+msgstr  ""
+
+#: 404.php:30
+msgid   "Most Used Categories"
+msgstr  ""
+
+#: template.contact.php:124 template.contact.php:197
+msgid   "Name:"
+msgstr  ""
+
+#: comments.php:40 comments.php:57
+msgid   "Newer Comments &rarr;"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.fragments.php:371
+msgid   "Newer posts &rarr;"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.php:1005
+msgid   "Next >"
+msgstr  ""
+
+#: kitecom/form_elements/Menu/menu.php:102
+msgid   "No animation"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:1039
+msgid   "No comments"
+msgstr  ""
+
+#: kitecom/form_elements/standard.php:275
+msgid   "No image selected"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:530
+msgid   "No pages"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:496
+msgid   "No pages except:"
+msgstr  ""
+
+#: kitecom/helpers/helpers.shortcodes.php:633
+msgid   "No related posts found"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:660
+msgid   "No styles available"
+msgstr  ""
+
+#: kitecom/widgets.tabs.php:128
+msgid   "No title specified!"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:631
+msgid   "None"
+msgstr  ""
+
+#: kitecom/form_elements/Menu/menu.php:115
+msgid   "Normal animation (500ms)"
+msgstr  ""
+
+#: template.login.php:66
+msgid   "Not a member? Register"
+msgstr  ""
+
+#: category.php:44 index.php:39 search.php:43 search.php:53 author.php:41
+#: template.latest.php:34 tag.php:41 archive.php:41
+msgid   "Nothing Found"
+msgstr  ""
+
+#: kitecom/widgets.comments.php:211
+msgid   "Number of comments:"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:624 kitecom/widgets.nsp.php:641
+#: kitecom/widgets.nsp.php:664 kitecom/widgets.nsp.php:702
+#: kitecom/widgets.nsp.php:740 kitecom/widgets.nsp.php:786
+#: kitecom/widgets.nsp.php:827 kitecom/widgets.nsp.php:854
+#: kitecom/widgets.nsp.php:880
+msgid   "Off"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:551
+msgid   "Offset:"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:621 kitecom/widgets.nsp.php:638
+#: kitecom/widgets.nsp.php:661 kitecom/widgets.nsp.php:699
+#: kitecom/widgets.nsp.php:737 kitecom/widgets.nsp.php:783
+#: kitecom/widgets.nsp.php:824 kitecom/widgets.nsp.php:851
+#: kitecom/widgets.nsp.php:877
+msgid   "On"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:692
+msgid   "Only administrator"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:690
+msgid   "Only guests"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:691
+msgid   "Only registered users"
+msgstr  ""
+
+#: kitecom/form_elements/Menu/menu.php:101
+msgid   "Opacity"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:516
+msgid   "Order by:"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:651
+msgid   "Padding:"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:503
+msgid   "Page"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.php:60
+#, php-format
+msgid   "Page %s"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:516
+msgid   "Page ID/Title/slug:"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:510
+msgid   "Page Template"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:63
+msgid   "Page additional params"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:59
+msgid   "Page keywords and description"
+msgstr  ""
+
+#: kitecom/helpers/helpers.customizer.php:106
+msgid   "Page layout"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.php:493
+msgid   "Page not found"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.fragments.php:347
+msgid   "Pages:"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:588 kitecom/widgets.nsp.php:604
+msgid   "Pagination"
+msgstr  ""
+
+#: template.login.php:46
+msgid   "Password"
+msgstr  ""
+
+#: template.login.php:63
+msgid   "Password Lost and Found"
+msgstr  ""
+
+#: 404.php:20
+msgid   "Perhaps searching, or one of the links below, can help."
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.fragments.php:325
+#, php-format
+msgid   "Permalink to %1$s"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.fragments.php:479
+msgid   "Pin it"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.fragments.php:78
+msgid   "Pingback:"
+msgstr  ""
+
+#: kitecom/layouts/template.php:63
+msgid   "Please check the form!"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:770
+msgid   "Position:"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:504
+msgid   "Post"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:517
+msgid   "Post ID/Title/slug:"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:62
+msgid   "Post additional params"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.fragments.php:244
+msgid   "Post date:"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:58
+msgid   "Post keywords and description"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:512
+msgid   "Post type"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:525
+msgid   "Post type:"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:505
+msgid   "Posts slugs"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.php:490
+msgid   "Published by: "
+msgstr  ""
+
+#: kitecom/widgets.social.php:157
+msgid   "RSS link:"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:536
+msgid   "Random"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:820 kitecom/widgets.nsp.php:1064
+msgid   "Read more"
+msgstr  ""
+
+#: template.login.php:66
+msgid   "Register"
+msgstr  ""
+
+#: template.login.php:47
+msgid   "Remember Me"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.fragments.php:124
+msgid   "Reply"
+msgstr  ""
+
+#: kitecom/options.importexport.php:61
+msgid   "Restore Template Settings"
+msgstr  ""
+
+#: attachment.php:28
+#, php-format
+msgid   "Return to %s"
+msgstr  ""
+
+#: kitecom/layouts/template.php:63
+msgid   "Save settings"
+msgstr  ""
+
+#: kitecom/layouts/template.php:63
+msgid   "Saving&hellip;"
+msgstr  ""
+
+#: searchform.php:13 searchform.php:14 searchform.php:16
+msgid   "Search"
+msgstr  ""
+
+#: search.php:19
+#, php-format
+msgid   "Search Results for: %s"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:513
+msgid   "Search page"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.php:57
+#, php-format
+msgid   "Search results for %s"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.php:498
+msgid   "Searching for: "
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:500
+msgid   "Select page to add"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:529
+msgid   "Selected pages"
+msgstr  ""
+
+#: kitecom/form_elements/Fonts/fonts.php:146
+msgid   "Selectors:"
+msgstr  ""
+
+#: template.contact.php:234
+msgid   "Send copy of the message to yourself"
+msgstr  ""
+
+#: template.contact.php:255
+msgid   "Send message"
+msgstr  ""
+
+#: kitecom/options.template.php:174
+msgid   "Settings saved"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:176
+msgid   "Show \"send copy\":"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:133
+msgid   "Show author:"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:140
+msgid   "Show category:"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:154
+msgid   "Show comments:"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:126
+msgid   "Show date:"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:169
+msgid   "Show e-mail field:"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:111
+msgid   "Show featured image:"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:162
+msgid   "Show name field:"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:119
+msgid   "Show sidebar information:"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:147
+msgid   "Show tags:"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:103
+msgid   "Show title:"
+msgstr  ""
+
+#: kitecom/helpers/helpers.customizer.php:151
+msgid   "Sidebar % width"
+msgstr  ""
+
+#: kitecom/helpers/helpers.customizer.php:112
+msgid   "Sidebar disabled"
+msgstr  ""
+
+#: kitecom/helpers/helpers.customizer.php:110
+msgid   "Sidebar on the left"
+msgstr  ""
+
+#: kitecom/helpers/helpers.customizer.php:111
+msgid   "Sidebar on the right"
+msgstr  ""
+
+#: kitecom/form_elements/Menu/menu.php:116
+msgid   "Slow animation (1000ms)"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:676
+msgid   "Smartphones"
+msgstr  ""
+
+#: template.contact.php:190
+msgid   "Sorry, an error occured."
+msgstr  ""
+
+#: search.php:47 search.php:59
+msgid   "Sorry, but nothing matched your search criteria. Please try again "
+        "with some different keywords."
+msgstr  ""
+
+#: kitecom/form_elements/Fonts/fonts.php:57
+msgid   "Standard fonts"
+msgstr  ""
+
+#: kitecom/helpers/helpers.customizer.php:131
+msgid   "Tablet width"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:677
+msgid   "Tablet/Smartphones"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:675
+msgid   "Tablets"
+msgstr  ""
+
+#: kitecom/widgets.tabs.php:230
+msgid   "Tabs activator event:"
+msgstr  ""
+
+#: kitecom/widgets.tabs.php:218
+msgid   "Tabs source:"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:507
+msgid   "Tag"
+msgstr  ""
+
+#: tag.php:20
+#, php-format
+msgid   "Tag Archives: %s"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:520
+msgid   "Tag ID/Name:"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.php:484
+msgid   "Tag: "
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:502
+msgid   "Tags"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.fragments.php:300
+msgid   "Tags:"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:511
+msgid   "Taxonomy"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:524
+msgid   "Taxonomy term:"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:523
+msgid   "Taxonomy:"
+msgstr  ""
+
+#: kitecom/functions.php:54
+msgid   "Template options"
+msgstr  ""
+
+#: kitecom/layouts/updates.php:21
+msgid   "Template version: "
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:522
+msgid   "Template:"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:695 kitecom/widgets.nsp.php:873
+msgid   "Text"
+msgstr  ""
+
+#: template.contact.php:98
+msgid   "The reCAPTCHA wasn't entered correctly. Go back and try it again."
+msgstr  ""
+
+#: kitecom/helpers/helpers.customizer.php:121
+msgid   "Theme width"
+msgstr  ""
+
+#: kitecom/options.importexport.php:72
+msgid   "This backup file contains your Gavern template configuration and "
+        "setting options."
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.php:1010
+msgid   "This feature requires inline frames. You have iframes disabled or "
+        "your browser does not support them."
+msgstr  ""
+
+#: comments.php:13
+msgid   "This post is password protected. Enter the password to view any "
+        "comments."
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:528 kitecom/widgets.nsp.php:657
+#: kitecom/widgets.nsp.php:847
+msgid   "Title"
+msgstr  ""
+
+#: kitecom/widgets.comments.php:196 kitecom/widgets.tabs.php:213
+#: kitecom/widgets.nsp.php:485 kitecom/widgets.social.php:137
+msgid   "Title:"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:773
+msgid   "Top"
+msgstr  ""
+
+#: 404.php:39
+msgid   "Try looking in the monthly archives."
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.fragments.php:457
+msgid   "Tweet"
+msgstr  ""
+
+#: kitecom/widgets.social.php:147
+msgid   "Twitter link:"
+msgstr  ""
+
+#: kitecom/layouts/updates.php:17 kitecom/functions.php:83
+msgid   "Updates"
+msgstr  ""
+
+#: kitecom/form_elements/standard.php:273
+msgid   "Upload Image"
+msgstr  ""
+
+#: kitecom/widgets.comments.php:20
+msgid   "Use this widget to show recent comments with avatars"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:25
+msgid   "Use this widget to show recent items with images and additional "
+        "elements like title, date etc."
+msgstr  ""
+
+#: kitecom/widgets.social.php:20
+msgid   "Use this widget to show social links"
+msgstr  ""
+
+#: kitecom/widgets.tabs.php:20
+msgid   "Use this widget to show tabs created form the selected sidebar"
+msgstr  ""
+
+#: template.login.php:45
+msgid   "Username"
+msgstr  ""
+
+#: kitecom/layouts/template.php:28
+msgid   "Version: "
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:280
+msgid   "Video Embed Code"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.fragments.php:279
+#, php-format
+msgid   "View all posts by %s"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:492
+msgid   "Visible at: "
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:695
+msgid   "Visible for: "
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:680
+msgid   "Visible on: "
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.fragments.php:554
+msgid   "Website: "
+msgstr  ""
+
+#: kitecom/options.importexport.php:71
+msgid   "When you click \"Backup Template Settings\" button, system will "
+        "generate a template backup file for you to save on your computer."
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:489
+msgid   "Widget rules"
+msgstr  ""
+
+#: kitecom/helpers/helpers.features.php:666
+msgid   "Widget style: "
+msgstr  ""
+
+#: kitecom/form_elements/Menu/menu.php:99
+msgid   "Width and Opacity"
+msgstr  ""
+
+#: kitecom/form_elements/Menu/menu.php:98
+msgid   "Width, Height and Opacity"
+msgstr  ""
+
+#: kitecom/widgets.comments.php:206
+msgid   "Word count:"
+msgstr  ""
+
+#: kitecom/filters.php:288
+msgid   "WordPress &rsaquo; Error"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:677 kitecom/widgets.nsp.php:715
+#: kitecom/widgets.nsp.php:867 kitecom/widgets.nsp.php:893
+msgid   "Words"
+msgstr  ""
+
+#: archive.php:23
+#, php-format
+msgid   "Yearly Archives: %s"
+msgstr  ""
+
+#: kitecom/form_elements/Menu/menu.php:53
+msgid   "You can enable or disable showing the menu in the template."
+msgstr  ""
+
+#: kitecom/form_elements/Menu/menu.php:67
+msgid   "You can enable showing the menu in the specific pages."
+msgstr  ""
+
+#: kitecom/form_elements/Menu/menu.php:94
+msgid   "You can specify the menu animation."
+msgstr  ""
+
+#: kitecom/form_elements/Menu/menu.php:76
+msgid   "You can specify the menu depth."
+msgstr  ""
+
+#: kitecom/form_elements/Menu/menu.php:110
+msgid   "You can specify the speed of the menu animation."
+msgstr  ""
+
+#: kitecom/options.importexport.php:24 kitecom/options.template.php:20
+#: kitecom/options.template.php:178 kitecom/options.updates.php:17
+msgid   "You don't have sufficient permissions to access this page!"
+msgstr  ""
+
+#: kitecom/form_elements/Fonts/fonts.php:113
+msgid   "You have no fonts in fonts/ directory"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.fragments.php:92
+msgid   "Your comment is awaiting moderation."
+msgstr  ""
+
+#: template.contact.php:185
+msgid   "Your message was sent to us successfully."
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:567
+msgid   "columns:"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:668 kitecom/widgets.nsp.php:706
+#: kitecom/widgets.nsp.php:858 kitecom/widgets.nsp.php:884
+msgid   "length:"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.php:1008
+msgid   "of"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:682 kitecom/widgets.nsp.php:720
+#: kitecom/widgets.nsp.php:751 kitecom/widgets.nsp.php:791
+#: kitecom/widgets.nsp.php:832
+msgid   "order:"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:564 kitecom/widgets.nsp.php:576
+msgid   "pages:"
+msgstr  ""
+
+#: kitecom/helpers/helpers.layout.fragments.php:325
+msgid   "permalink"
+msgstr  ""
+
+#: template.contact.php:80
+msgid   "please enter a text of the message."
+msgstr  ""
+
+#: template.contact.php:72
+msgid   "please enter correct email address."
+msgstr  ""
+
+#: template.contact.php:63
+msgid   "please enter your name"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:570 kitecom/widgets.nsp.php:579
+msgid   "rows:"
+msgstr  ""
+
+#: kitecom/widgets.nsp.php:744
+msgid   "size:"
+msgstr  ""

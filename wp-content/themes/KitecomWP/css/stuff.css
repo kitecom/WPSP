@@ -1,0 +1,1157 @@
+/**
+ *
+ * -------------------------------------------
+ * Template stuff CSS file
+ * -------------------------------------------
+ *
+ **/
+
+/*
+ *
+ * 7. Template additional features styles
+ *
+ *
+------------------------------------ */
+
+/* 7.1. Breadcrumbs & font-size
+==================================== */
+
+#gk-breadcrumb-area {
+	overflow: hidden;
+	padding: 46px 0 10px 0;
+}
+#gk-breadcrumb-area {display: none}
+
+.gk-breadcrumbs {
+	float: left;
+	font-size: 11px;
+}
+
+.gk-breadcrumbs > a:first-child:before {
+	display: none;
+}
+
+.gk-breadcrumbs > a:before,
+.gk-breadcrumbs > span:before {
+	color: #ddd;
+	content: " / ";
+	font-weight: normal;
+	padding: 0 5px;
+}
+
+.gk-breadcrumbs > span {
+	color: #777;
+}
+
+#gk-font-size {
+	float: right;
+}
+
+#gk-font-size > a {
+	margin-left: 5px;
+}
+
+/* 7.2. Contact page template
+==================================== */
+
+#gk-contact {
+	margin: 0;
+	max-width: 540px;
+	overflow: hidden;
+	width: 100%;
+}
+
+#gk-contact dd {
+	margin: 5px 0;
+	padding: 0;
+}
+
+#gk-contact span.error {
+	color: #dd514c;
+}
+
+.contactpage .gk-contact-error,
+.contactpage .gk-contact-thanks {
+	background: #5eb95e;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 14px;
+	line-height: 18px;
+	margin: 30px 0;
+	max-width: 520px;
+	padding: 5px 10px;
+	text-align: center;
+	width: 100%;
+}
+
+.contactpage .gk-contact-error {
+	background: #dd514c;
+}
+
+.contactpage input[type="text"],
+.contactpage textarea {
+	width: 100%;
+}
+
+.contactpage input[type="submit"] {
+	float: right;
+	margin: 0;
+}
+
+/* 7.3. Page 404 template
+==================================== */
+
+.page404 > p:first-child {
+	font-size: 150%;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.page404 > p:first-child > small {
+	display: block;
+	font-size: 85%;
+	text-align: center;
+}
+
+.page404 label[for="s"] {
+	display: none;
+}
+
+.page404 form {
+	margin: 10px 0 30px 0;
+	text-align: center;
+}
+
+.page404 > div {
+	clear: both;
+	overflow: hidden;
+}
+
+.page404 .widget {
+	float: left;
+	margin: 0 2%;
+	width: 46%;
+}
+
+/* 7.4. Archive page template
+==================================== */
+
+.archivepage .widget {
+    float: left;
+    margin: 0 2%;
+    width: 29%;
+}
+
+.archivepage .widget.first {
+    margin-left: 0;
+    width: 31%;
+}
+
+.archivepage .widget.last {
+    margin-right: 0;
+    width: 31%;
+}
+
+.archivepage .widget li:before {
+    display: none;
+}
+
+.archivepage .widget.first li {
+    position: relative;
+}
+
+.archivepage .widget.first li a {
+    display: block;
+    padding-left: 54px;
+}
+
+.archivepage .widget li small {
+    color: #aaa;
+    left: 0;
+    position: absolute;
+    top: 7px;
+}
+
+/* 7.5. Tag cloud template
+==================================== */
+
+.tagcloud .tag-cloud {
+	border-top: 1px solid #e5e5e5;
+	margin: 20px 0;
+	padding: 10px 0;
+}
+
+.tagcloud .tag-cloud a {
+	padding: 0 10px;
+	vertical-align: middle;
+}
+
+/* 7.6. Login page template
+==================================== */
+
+.loginpage #loginform {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 240px;
+}
+
+.loginpage input[type="text"],
+.loginpage input[type="password"] {
+	clear: both;
+	width: 240px;
+}
+
+.loginpage p label {
+	display: block;
+}
+
+.loginpage .login-remember {
+	float: left;
+}
+
+.loginpage .login-submit {
+	float: right;
+	margin: 10px 0;
+}
+
+.loginpage .login-submit input[type="submit"] {
+	margin: 0;
+}
+
+.loginpage nav.small {
+	border-top: 1px solid #eee;
+	clear: both;
+	margin: 10px auto;
+	padding: 10px 0;
+	width: 240px;
+}
+
+.loginpage nav.small ul {
+	margin: 0;
+}
+
+.loginpage nav.small ul li {
+	float: left;
+	margin-right: 10px;
+	padding-left: 0;
+}
+
+.loginpage nav.small ul li:before {
+	display: none;
+}
+
+/* 7.7. Post formats header
+==================================== */
+
+header hgroup h2 {
+	margin: 0;
+	padding: 11px 0 10px 0;
+}
+
+.gk-format-aside,
+.gk-format-audio,
+.gk-format-chat,
+.gk-format-gallery,
+.gk-format-image,
+.gk-format-link,
+.gk-format-quote,
+.gk-format-status,
+.gk-format-video {
+	background: #fff url('../images/post_formats/format-aside.png') no-repeat center center;
+	border: 2px solid #fff;
+	display: block;
+	height: 28px;
+	left: 0;
+	padding: 0;
+	position: absolute;
+	text-align: left!important;
+	text-indent: -9999px!important;
+	top: -14px;
+	width: 28px;
+}
+
+.gk-format-audio {
+	background: #fff url('../images/post_formats/format-audio.png') no-repeat center center;
+}
+
+.gk-format-chat {
+	background: #fff url('../images/post_formats/format-chat.png') no-repeat center center;
+}
+
+.gk-format-gallery {
+	background: #fff url('../images/post_formats/format-gallery.png') no-repeat center center;
+}
+
+.gk-format-image {
+	background: #fff url('../images/post_formats/format-image.png') no-repeat center center;
+}
+
+.gk-format-link {
+	background: #fff url('../images/post_formats/format-link.png') no-repeat center center;
+}
+
+.gk-format-quote {
+	background: #fff url('../images/post_formats/format-quote.png') no-repeat center center;
+}
+
+.gk-format-status {
+	background: #fff url('../images/post_formats/format-status.png') no-repeat center center;
+}
+
+.gk-format-video {
+	background: #fff url('../images/post_formats/format-video.png') no-repeat center center;
+}
+
+/* 7.8. Page navigation
+==================================== */
+
+.pagenav {
+	margin: 20px 0 10px 0;
+	overflow: hidden;
+}
+
+.pagenav .nav-prev {
+	float: left;
+}
+
+.pagenav .nav-next {
+	float: right;
+}
+
+/* 7.9. Author info
+==================================== */
+.author-info {
+	background: #fafafa;
+	border: 1px solid #f4f4f4;
+	clear: both;
+	margin-top: 34px;
+	min-height: 48px;
+	overflow: hidden;
+	padding: 15px 20px;
+	position: relative;
+}
+
+#gk-social-api + .author-info {
+	margin-top: 72px;
+}
+
+.author-info > aside {
+	left: 20px;
+	position: absolute;
+	top: 20px;
+}
+
+.author-info img {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	display: block;
+	margin-top: -5px;
+}
+
+.author-info > div {
+	padding: 0 0 0 84px;
+}
+
+.author-info h2 {
+	font-size: 18px;
+	margin: 0 0 6px 0;
+}
+
+.author-info .author-desc {
+	font-size: 12px;
+	line-height: 17px;
+}
+
+/* 7.10. Post custom fields
+==================================== */
+
+.content dl.post-fields {
+	border-top: 1px solid #e5e5e5;
+	font-size: 11px;
+	line-height: 1.3;
+	margin: 10px 0;
+	padding: 0;
+}
+
+.content dl.post-fields dt {
+	border-top: 1px solid #f5f5f5;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.5;
+	margin: 10px 0 0 0;
+	padding: 10px 0 0 0;
+}
+
+.content dl.post-fields dt:first-child {
+	border-top: none;
+}
+
+.content dl.post-fields dd {
+	margin: 0;
+	padding: 0;
+}
+
+/* 7.11. oEmbed support
+==================================== */
+
+/* YouTube, Vimeo - responsive support */
+.content iframe[src^='http://www.youtube.com'],
+.content iframe[src^='https://www.youtube.com'],
+.content iframe[src^='http://youtube.com'],
+.content iframe[src^='https://youtube.com'],
+.content iframe[src*='vimeo.com'] {
+	max-width: 100%!important;
+}
+
+/* Twitter - responsive support */
+.content .twitter-tweet-rendered {
+	max-width: 100%!important;
+}
+
+/* Flickr - responsive support */
+.content a[href^='http://www.flickr.com'],
+.content a[href^='https://www.flickr.com'],
+.content a[href^='http://flickr.com'],
+.content a[href^='https://flickr.com'] {
+	max-width: 100%!important;
+}
+
+/* 7.12. Widget title icons
+==================================== */
+
+.box-title > i {
+	font-size: 16px;
+}
+
+/* 7.13. Attachment page
+==================================== */
+
+.attachment-page {
+	position: relative;
+}
+
+.attachment-page > aside {
+	left: 0;
+}
+
+.attachment-page > aside ~ section,
+.attachment-page > aside ~ footer {
+	margin-left: 140px;
+}
+
+.attachment-page section.intro {
+	overflow: hidden;
+}
+
+.nav-prev {
+	float: left;
+}
+
+.nav-next {
+	float: right;
+}
+
+/* 7.14. Tables
+==================================== */
+
+article section table {
+	margin: 10px 0;
+}
+
+article section table th {
+	background: #eee;
+	padding: 0 4px;
+	text-align: left;
+}
+
+article section table td {
+	padding: 0 4px;
+}
+
+article section table tbody tr:nth-child(2n) {
+	background: #f5f5f5;
+}
+
+article section table td span.gk-table-label {
+	display: none;
+}
+
+#gk-header .box.widget_text {
+    /* background: url(../images/bang/hero_bg.png) no-repeat 50% 50%; */
+}
+#gk-header .box.widget_text .range {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	text-align: center;
+}
+#gk-header .box.range_header.tas {
+	min-height: 250px;
+	background: #191f44;
+	width: 100%;
+}
+#gk-header .box.range_header.gw {
+	min-height: 250px;
+	background: url(../images/GWC-bg.jpg) repeat-x 0 0 #35a6de;
+	width: 100%;
+}
+#gk-header .box.range_header.rin {
+	min-height: 250px;
+	background:  url(../images/RIN-bg.jpg) repeat-x 0 0  #129ed9;
+	width: 100%;
+}
+#gk-header .box.range_header.lig {
+	min-height: 250px;
+	background: url(../images/GLI-bg.jpg) repeat-x 0 -0.5px #04b8ec;
+	width: 100%;
+}
+#gk-header .box.range_header.sna {
+	min-height: 250px;
+	background:  #94c23e;
+	width: 100%;
+}
+#gk-header .box.range_header.rc {
+	min-height: 250px;
+	background: url(../images/RC-bg.jpg) repeat-x 0 -0.5px #7f2e8a;
+	width: 100%;
+}
+#gk-header .box.range_header img{
+	object-fit: cover;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+
+
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+
+}
+.range_header ul,
+.welcome ul {
+	padding: 0!important;
+}
+.range_header h2,
+.welcome h1 {
+	color: #06a7e2;
+	font-weight: bold;
+	font-family: "rockwell";
+}
+.box.welcome,
+.box.about{
+	padding: 20px 0 0 0!important;
+	margin-bottom:  0;
+}
+.box.welcome .img,
+.box.about .img {
+	float: right;
+	max-width: 60%;
+	margin-top: -70px;
+}
+
+.box.welcome .content,
+.box.about .content {
+	float: left;
+	max-width: 50%;
+	font-size: 18px;
+	color: #000;
+	/* padding: 0 30px; */
+	text-align: left;
+}
+.box.timeline.welcome p {
+	font-size: 18px;
+	color: #fff;
+	padding: 0 30px;
+}
+.box.timeline.welcome .textwidget {
+	max-width: 1024px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 30px 0 10px;
+}
+.box.about  .box-title{
+	padding: 0 0 0 0px;
+}
+a.range_link {
+	color: #000;
+	border: 1px solid #000;
+	padding: 3px 10px;
+	border-radius: 5px;
+	margin-top: 20px;
+	display: inline-block;
+
+}
+.box.welcome .content a.range_link{
+	text-align: left!important;
+	float: left;
+	/* margin-left: 20px */
+}
+
+.range_header h1{
+	display: none
+}
+.range_header {
+	text-align: center
+}
+#bottom {
+	background: url(../images/main_bg.png) repeat 50% 50%;
+	box-shadow: 0px -5px 20px #ccc;
+}
+#bottom1 {
+	border-top: 1px solid #e5e5e5;
+	margin: 0px auto 0;
+	overflow: hidden;
+	padding: 45px 0 0 0;
+	background: url(../images/footer_bg.png) repeat-y 50% 0%;
+}
+#bottom1 .gk-page {
+	background: url(../images/footer-deco.png) no-repeat 50% 0% transparent;
+	overflow: hidden;
+	padding: 60px 0;
+	min-height: 340px;
+}
+#bottom1 .box.fb {
+	background: #fff;
+	overflow-y: hidden;
+	width: 29.25%;
+	margin: 0 0 0 40px;
+	max-height: 310px;
+	float: left;
+}
+#bottom1 .box.tw {
+	background: #fff;
+	overflow-y: scroll;
+	width: 29.25%;
+	margin: 0 0 0 40px;
+	min-height: 310px;
+	float: left;
+	max-height: 310px;
+}
+#bottom1 .box.yt {
+	background: #fff;
+	overflow-x: hidden;
+	width: 29.25%;
+	margin: 0 0 0 40px;
+	min-height: 310px;
+	float: left;
+	max-height: 310px;
+}
+
+#bottom1 .gk-page > .box h3.box-title {
+	font-size: 20px!important;
+	margin: 10px 0 0 0;
+}
+#bottom1 .gk-page > .box:nth-of-type(2) {
+	margin: 0 22px 0 22px;
+}
+#bottom1 .gk-page > .box:nth-of-type(3) {
+	margin: 0 40px 0 0px;
+}
+/*#gk-mainbody-bottom {
+	background: orange;
+	margin: 80px auto 30px;
+	padding: 20px;
+}*/
+
+/*PRODUCT RANGE SUB MENUS
+.sub-menu {
+	width: 100%;
+	background: red;
+}
+.sub-menu ul {
+	padding: 0;
+	background: blue;
+}
+.sub-menu ul li {
+	text-align: left;
+	width: auto;
+	background: #efefef;
+}*/
+
+#gk-mainbody .info {display: none;}
+
+#gk-footer .fmenu {
+	padding: 2px 0 17px 0px;
+	width: 50%;
+	float: left;
+}
+#gk-footer .bottom_socials {
+	width: 30%;
+	float: right;
+	height: 90px;
+	text-align: right;
+}
+.form-group {
+	display: block;
+	width: 100%;
+}
+
+.form-group label,
+.form-group div  {
+	float: left;
+	margin: 6px 0;
+}
+.form-group label {
+	width: 30%;
+	padding: 4px 0;
+	line-height: 1.25;
+	float: left;
+	text-align: left;
+}
+.form-group  div  {
+	width: 75%;
+}
+.form-group.nature {
+	position: relative;
+}
+.form-group.nature label {
+	width: 25%;
+	padding-top: 20px;
+}
+.form-group.nature > div {
+	width: 75%;
+	float: left;
+}
+.form-group.nature > div > div {
+	float: left;
+}
+
+.form-group.nature .caldera-config-field > div{
+	width: auto;
+	float: left;
+}
+.caldera-grid .form-group {
+    margin-bottom: 0px!important;
+    width: 100%;
+    float: left;
+}
+.form-group .pi_pop .control-label:hover {
+	background: red
+}
+
+.form-group div  {
+	width: 69%;
+	float: right;
+}
+.form-control{}
+.enquiry-text,
+.complaint-text {
+	/* margin-top: -15px */
+}
+form .row.first_row {
+	/* border-bottom: 1px solid #ccc; */
+	/* margin-bottom: 10px; */
+}
+.row.first_row .form-group span.help-block {
+	position: relative;
+	font-size: 85%;
+	font-style: italic;
+	float: left;
+	margin-left: 20px;
+	padding-top: 3px;
+	color: #000;
+}
+.caldera-grid .btn-success:nth-of-type(2) {
+    color: #fff;
+    /*background-color: #5cb85c;
+    border-color: #4cae4c;*/
+    background-color: #c9302c;
+    border-color: #c12e2a;
+}
+
+form .subheader h3 {
+	font-size: 16px;
+	color: #000;
+	border-bottom: 1px solid #ccc;
+	font-weight: bold;
+	padding: 10px 0 10px 0
+}
+.fts-powered-by-text,
+.fts-jal-fb-header,
+.fts-jal-fb-group-header-desc {
+	display: none!important
+}
+.rangemenu article {
+	border: 6px solid #ccc;
+	min-height: 430px;
+}
+.rangemenu article .ptb_items_wrapper {
+	padding: 10px
+}
+.ptb_post_title a {
+}
+#gk-mainbody article {opacity: 1;margin-top: 60px;}
+/*.single-products article {opacity: .6}
+.single-products.postid-39851 article#post-39851 {opacity: 1}*/
+
+
+/*BANG!*/
+/*------------------------------------------*/
+header + div {
+	/* margin-top: 130px; */
+}
+.ptb_module {
+	text-align: left;
+}
+.ptb_module.ptb_title {
+	text-align: left;
+}
+.ptb_module.ptb_title.centered {
+	width: 100%!important;
+	text-align: right!important;
+}
+.product_title {
+	text-align: center!important;
+}
+
+.ptb_module img {
+    max-width: 100%;
+    /* max-height: 250px; */
+    text-align: center;
+ }
+.ptb_subtitle,
+.ptb_other_events {
+	font-size: 18px;
+	color: #444;
+	font-weight: normal
+}
+
+
+/****************************************
+ * viewport styling
+ ***************************************/
+
+.als-viewport {
+	position: relative;
+	overflow: hidden;
+	margin: 0px auto;
+	width: 1040px;
+	max-height: 320px;
+}
+
+/***************************************************
+ * wrapper styling
+ **************************************************/
+
+.als-wrapper {
+	position: relative;
+	/* if you are using a list with <ul> <li> */
+	list-style: none;
+	overflow: hidden;
+	padding: 0 0 0 40px;
+	/* width: 734px!important; */
+	/* height: 320px!important; */
+}
+
+/*************************************
+ * item: single list element
+ ************************************/
+
+.als-viewport {
+	max-width: 1024px;
+}
+.als-wrapper li {
+	position: relative;
+	display: block;
+	/* text-align: center; */
+	cursor: pointer;
+	float: left;
+	width: 360px!important;
+}
+.als-wrapper li .all_content{
+	width: 260px;
+	float: left;
+	padding: 2.5px;
+	margin-top: 50px;
+	display: none;
+}
+.als-wrapper li .img {
+	/* width: 100%; */
+	float: left;
+}
+.als-wrapper li .img img {
+}
+.als-wrapper li a h1.title {
+	font-size: 20px;
+	color: #121212;
+	font-weight:bold;
+	margin: 0!important;
+	line-height: 32px;
+	padding: 0 0 10px 0;
+	font-weight: 600;
+	font-family: rockwell;
+}
+.als-wrapper li a:hover h1.title {
+	color: #06a7e2;
+}
+.als-wrapper li p {
+	line-height: 1.5;
+	margin: 0;
+	padding: 0 40% 0 0;
+}
+.als-prev,
+.als-next {
+	position: absolute;
+	cursor: pointer;
+	clear: both;
+	z-index: 999;
+}
+.als-prev,
+.als-next {
+	top: 30%;
+}
+
+.als-prev {
+	left: 0%;
+}
+
+.als-next {
+	right: 0%;
+}
+.fluid-width-video-wrapper {
+	max-width: 288px!important;
+	position: relative;
+	width: 300px!important;
+	float: right;
+	overflow: hidden;
+	left: 5px;
+}
+.fluid-width-video-wrapper iframe,
+.fluid-width-video-wrapper object,
+.fluid-width-video-wrapper embed {
+	max-width: 280px!important;
+	height: auto;
+	right: 100%!important;
+	overflow: hidden!important;
+	left: 20px;
+}
+
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+@media screen and (max-width: 480px) {
+	.bang-left,
+	.bang-right {
+		display: none;
+	}
+	.bang-star,
+	.bang-star-bg {
+		left: 48%
+	}
+	.bang-bang {
+		left: 38%;
+		top: 68%;
+	}
+	.logo {
+		width: 50%!important;
+		float: left;
+	}
+	.welcome .wid_content,
+	.welcome .img {
+		max-width: 100%;
+	}
+	.pr_range {
+		width: 92%;
+		float: none;
+		overflow: hidden;
+		margin: 0 auto 10px;
+	}
+
+	.pr_range:nth-of-type(even){
+	float: none;
+	}
+}
+
+.box.five .wp-posts-carousel-image img {
+	display: inline;
+    margin: 0 auto;
+    width: auto;
+    vertical-align: middle;
+}
